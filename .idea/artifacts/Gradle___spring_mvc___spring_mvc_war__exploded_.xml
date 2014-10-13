@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Gradle : spring_mvc : spring_mvc.war (exploded)">
+    <output-path>$PROJECT_DIR$/out/artifacts/spring_mvc/exploded/spring_mvc.war</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="spring_mvc/web/Web Gradle : spring_mvc.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="spring_mvc" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: spring-webmvc-4.1.1.RELEASE" />
+          <element id="library" level="project" name="Gradle: gson-2.3" />
+          <element id="library" level="project" name="Gradle: spring-beans-4.1.1.RELEASE" />
+          <element id="library" level="project" name="Gradle: spring-context-4.1.1.RELEASE" />
+          <element id="library" level="project" name="Gradle: spring-core-4.1.1.RELEASE" />
+          <element id="library" level="project" name="Gradle: spring-expression-4.1.1.RELEASE" />
+          <element id="library" level="project" name="Gradle: spring-web-4.1.1.RELEASE" />
+          <element id="library" level="project" name="Gradle: spring-aop-4.1.1.RELEASE" />
+          <element id="library" level="project" name="Gradle: commons-logging-1.1.3" />
+          <element id="library" level="project" name="Gradle: aopalliance-1.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/spring_mvc/exploded/spring_mvc.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
