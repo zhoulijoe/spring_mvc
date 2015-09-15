@@ -6,3 +6,6 @@ out/
 
 # Gradle
 .gradle/
+
+# Intellij
+.idea/workspace.xml

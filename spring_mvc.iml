@@ -11,7 +11,11 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/com/zhou/HelloServletContext.java</file>
+        </fileset>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="false">
@@ -42,4 +46,3 @@
     <orderEntry type="library" scope="PROVIDED" name="Gradle: javax.servlet-api-3.0.1" level="project" />
   </component>
 </module>
-
